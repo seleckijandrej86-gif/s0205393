@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="400"
+     height="200"
+     viewBox="0 0 400 200">
+
+    <rect width="400" height="200" fill="lightgray"/>
+
+    <rect x="20" y="20"
+          width="160"
+          height="160"
+          fill="skyblue"/>
+
+    <circle cx="300"
+            cy="100"
+            r="70"
+            fill="lightgreen"/>
+
+    <text x="50" y="105"
+          font-size="22">КубГУ</text>
+
+    <text x="265" y="105"
+          font-size="18">WEB</text>
+
+</svg>
