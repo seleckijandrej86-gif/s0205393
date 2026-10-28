@@ -101,38 +101,39 @@
         </li>
 
         <!-- 15. Прямоугольная и круглая области изображения -->
-        <li>
-            <p>Карта изображений: прямоугольная и круглая области</p>
+        <!-- 15. Карта изображений: КубГУ и Википедия -->
+<li>
+    <p>КубГУ и Википедия — нажмите на нужную часть картинки:</p>
 
-            <img
-                src="https://dummyimage.com/400x200/cccccc/000000.png&amp;text=HTML+Image+Map"
-                alt="Изображение с активными областями"
-                usemap="#imagemap"
-                width="400"
-                height="200"
-            >
+    <img
+        src="image.png"
+        alt="Логотипы КубГУ и Википедии"
+        width="600"
+        usemap="#logosmap"
+    >
 
-            <map name="imagemap">
-                <area
-                    shape="rect"
-                    coords="0,0,200,200"
-                    href="https://kubsu.ru"
-                    alt="Прямоугольная область"
-                    title="Перейти на сайт КУБГУ"
-                    target="_blank"
-                >
+    <map name="logosmap">
+        <!-- Левая часть: КубГУ -->
+        <area
+            shape="rect"
+            coords="0,0,895,1024"
+            href="https://kubsu.ru/"
+            alt="КубГУ"
+            title="Перейти на сайт КубГУ"
+            target="_blank"
+        >
 
-                <area
-                    shape="circle"
-                    coords="300,100,70"
-                    href="https://developer.mozilla.org"
-                    alt="Круглая область"
-                    title="Перейти на MDN"
-                    target="_blank"
-                >
-            </map>
-        </li>
-
+        <!-- Правая часть: Википедия -->
+        <area
+            shape="circle"
+            coords="895,0,1792,1024"
+            href="https://ru.wikipedia.org/"
+            alt="Википедия"
+            title="Перейти в Википедию"
+            target="_blank"
+        >
+    </map>
+</li>
         <!-- 16. Ссылка с пустым href -->
         <li>
             <a href="">Ссылка с пустымhref</a>
